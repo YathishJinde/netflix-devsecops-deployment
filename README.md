@@ -98,7 +98,7 @@ pipeline {
         stage("Docker Build Image"){
             steps{
                    
-                sh "docker build --build-arg API_KEY=2af0904de8242d48e8527eeedc3e19d9 -t netflix ."
+                sh "docker build --build-arg API_KEY=squ_c32930c81a1f723864a48373f5778bd169a7b91f -t netflix ."
             }
         }
         stage("TRIVY"){
