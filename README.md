@@ -67,7 +67,7 @@ pipeline {
         }
         stage('Checkout from Git') {
             steps {
-                git branch: 'main', url: 'https://github.com/YathishJinde/netflix-devsecops-deployment.git'
+                git branch: 'main', url: 'https://github.com/YathishJinde/Nextflix-Clone-Project.git'
             }
         }
         stage("Sonarqube Analysis") {
